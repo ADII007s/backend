@@ -7,6 +7,7 @@ app.use(express.json());
 
 const notes =[]
 
+//git remote add origin https://github.com/ADII007s/backend.git
 
 app.post("/notes",(req,res)=>{
 
