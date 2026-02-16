@@ -1,0 +1,39 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html, 
+body,
+#root{
+  height: 100%;
+  width: 100%;
+}
+
+html{
+  background-color: rgb(39, 33, 33);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.notes{
+  display: flex;
+  gap:1rem;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+  flex-wrap: wrap;
+}
+
+.note{
+  background-color:#494949;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: 20rem;
+  color: white;
+}
+
+.note-create-form{
+  display: flex;
+  gap:1rem;
+  padding-block: 1rem;
+  padding-inline: 3rem;
+}
